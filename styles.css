@@ -239,6 +239,7 @@ nav ul li a:hover::after {
 }
 .btn:hover {
   background: #00adb5;
+  box-shadow: 0 0 5px #00adb5;
 }
 
 /*------------------------Contact---------------------------------*/
@@ -274,6 +275,7 @@ nav ul li a:hover::after {
 .btn.btn2 {
   display: inline-block;
   background: #00adb5;
+  box-shadow: 0 0 5px #00adb5;
 }
 .contact-right form {
   width: 100%;
