@@ -76,6 +76,8 @@ nav ul li a:hover::after {
 }
 .header-text p {
   opacity: 0;
+  font-style: italic;
+  color: #00adb5;
   animation: slideTop 1s ease forwards;
   animation-delay: 0.7s;
 }
