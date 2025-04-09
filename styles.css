@@ -17,6 +17,8 @@ body {
 }
 .container {
   padding: 10px 10%;
+}
+.container.scroll-container {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
