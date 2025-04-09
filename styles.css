@@ -17,6 +17,9 @@ body {
 }
 .container {
   padding: 10px 10%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 nav {
   display: flex;
@@ -428,6 +431,16 @@ nav .fa-solid {
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  from {
+    scale: 0.5;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
     opacity: 1;
   }
 }
